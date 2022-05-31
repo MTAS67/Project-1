@@ -1,0 +1,159 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin:48px; 
+
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    border: blue dashed; 
+}
+.header-logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+.hero-container,
+.footer{
+    background-color: #1f2937;
+}
+
+.hero-container {
+    padding:48px; 
+    border:orange dashed 3px; 
+
+}
+.header-links,
+.header-content-left-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links{
+ display:flex;  
+ gap: 32px; 
+ 
+}
+
+.hero-content {
+    display:flex; 
+    border:pink 5px solid;
+
+}
+
+.header-content-left{
+    border: whitesmoke solid;
+    flex:1;  
+    display: flex;  
+    align-items: flex:start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    height:264px;
+    width:400px; 
+    display:flex; 
+    flex:1;
+    margin:0; 
+    padding:164px 124px;
+}
+.header-content-right{
+    border: whitesmoke solid;
+    flex:1;
+    
+}
+.header-content-left-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:bolder;
+    display:flex; 
+}
+
+.header-content-left-subtext {
+    font-size:18px;
+    display:flex; 
+    flex-wrap:wrap;
+}
+
+ .header-content-left-button {
+     display:flex; 
+     align-items: flex-start;
+ }    
+
+.header
+.footer-text {
+    color:#e5e7eb;
+}
+
+
+.sign-up{
+    background-color:blue;
+    color:white; 
+}
+ .information-section {
+     border:dashed blue 5px; 
+     font-size:36px; 
+     font-weight:bolder; 
+     color:#1f2937; 
+     height:200px;
+ }
+ .information-section-boxes {
+     border: solid yellow 7px;
+ }
+
+.information-section-title {
+    border: orange solid 8px; 
+
+}
+.information-section-boxes{
+    border: red dashed
+}
+ .quote{
+     border: green dashed 8px; 
+     background-origin: #e5e7eb;
+     font-size: 36px; 
+     font-style: italic;
+     color: #1f2937;
+     display:flex; 
+     align-items: center;
+     justify-content: space between;
+     padding:124px 48px 24px 48px; 
+ }
+
+ .h2{
+     font-family: sans-serif;
+     font-style: italic;
+     font-size: 24px; 
+     color: gray; 
+     display:flex; 
+     justify-content: flex-end;
+     align-items: center;
+     padding: 24px; 
+     border: orange 8px solid; 
+ }
+
+ .call-to-action-container {
+     border: purple solid 9px;  
+     padding:64px; 
+     
+ }
+
+ .call-to-action-button {
+     background-color: 3882f6;
+     border: blue dashed 7px; 
+     padding:48px; 
+ }
+
+ .call-to-action-button-text {
+     border: yellow solid 7px; 
+     padding: 32px; 
+ }
+
+ .call-to-action-button-subtext {
+     border: pink dashed 7px; 
+     padding: 24px; 
+
+
+ }
